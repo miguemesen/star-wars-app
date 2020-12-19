@@ -28,6 +28,6 @@ jobs:
     - shell: bash    
       env:
         DOCKER_HUB_PASSWORD: ${{secrets.DOCKER_HUB_PASSWORD}}
-    - run: |
+    run: |
       chmod 755 ./build.sh
       ./build.sh
