@@ -30,4 +30,4 @@ jobs:
         DOCKER_HUB_PASSWORD: ${{secrets.DOCKER_HUB_PASSWORD}}
     - run: |
       chmod 755 ./build.sh
-      run: ./build.sh
+      ./build.sh
