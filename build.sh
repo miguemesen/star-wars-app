@@ -10,6 +10,6 @@ docker build . -t miguemesen/star-wars-server:latest
 
 echo "3/4 Packing the application into a docker image ..."
 docker login -u miguemesen -p $DOCKER_HUB_PASSWORD
-docker push star-wars-server:latest
+docker push miguemesen/star-wars-server:latest
 
 echo "4/4 Steps completed. Bye"
