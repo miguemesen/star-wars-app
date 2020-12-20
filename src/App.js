@@ -7,8 +7,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="App">
-        
-        Hola
+        <SWPeople />
       </div>
     );
   }  
